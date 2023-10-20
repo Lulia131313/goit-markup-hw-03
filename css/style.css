@@ -278,12 +278,13 @@ img {
 /*============FOOTER==========*
 
 /*=============/FOOTER==========*/
-
-.contaniar-footer {
+.footer {
+  padding: 100px 0;
   background-color: var(--primery-text-color);
   max-width: 1440px;
-  padding-left: 156px;
+  margin: 0 auto;
 }
+
 .logo-footer {
   display: inline-block;
   align-items: center;
@@ -294,7 +295,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  padding-top: 100px;
   margin-bottom: 16px;
 }
 .dark {
@@ -302,7 +302,6 @@ img {
 }
 .section-description.dark {
   width: 264px;
-  padding-bottom: 100px;
 }
 /*=============/FOOTER=========*/
 
