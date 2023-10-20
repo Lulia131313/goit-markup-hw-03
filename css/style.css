@@ -335,7 +335,11 @@ img {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
-
+.container-menu {
+  padding: 32px 16px;
+  border: 1px solid var(--accent);
+  border-top: none;
+}
 .example-item {
   border: 1px solid var(--accent);
   background: var(--wigth-color);
@@ -348,8 +352,10 @@ img {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 .suptitle.example-title {
+  margin-bottom: 8px;
   margin-top: 32px;
   margin-left: 16px;
   text-align: left;
