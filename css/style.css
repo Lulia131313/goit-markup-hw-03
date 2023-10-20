@@ -170,12 +170,11 @@ img {
 
 .section-hero {
   padding: 188px 0;
-}
-.container-hero {
   background-color: var(--primery-text-color);
   max-width: 1440px;
-  padding: 188px 472px;
+  margin: 0 auto;
 }
+
 .hero-title {
   color: var(--wigth-color);
   text-align: center;
@@ -184,7 +183,8 @@ img {
   line-height: 1.07;
   letter-spacing: 1.12px;
   max-width: 496px;
-  margin-bottom: 48px;
+  margin: 0 auto;
+  padding-bottom: 48px;
 }
 .page-button {
   font-family: 'Roboto', sans-serif;
@@ -232,6 +232,9 @@ img {
 
 /*============/ADVANTAGES=======*/
 /*============About============*/
+.section-about {
+  padding: 120px 0;
+}
 .about-list {
   display: flex;
   gap: 24px;
@@ -276,11 +279,13 @@ img {
 
 /*=============/FOOTER==========*/
 
-.footer {
+.contaniar-footer {
   background-color: var(--primery-text-color);
+  max-width: 1440px;
+  padding-left: 156px;
 }
 .logo-footer {
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
   color: var(--brand-color);
   font-family: Raleway, sans-serif;
@@ -290,7 +295,7 @@ img {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   padding-top: 100px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .dark {
   color: var(--light-color);
@@ -353,6 +358,7 @@ img {
   gap: 24px;
   flex-wrap: wrap;
   row-gap: 48px;
+  margin-bottom: 72px;
 }
 .suptitle.example-title {
   margin-bottom: 8px;
